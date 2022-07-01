@@ -1,0 +1,84 @@
+html,
+body {
+    height: 100%;
+}
+
+a{
+    transition: .3s;
+    text-decoration: none;
+    color: #7479B3;
+}
+a:hover{
+    color: #595e9e;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #F5F5F7;
+    background-color: #212429
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+}
+.form-signin form{
+    color: #212429
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="h-border"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="b-border"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-purp{
+    transition: .3s;
+    background-color: #7479B3;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 0px 10px inset #595e9e;
+}
+.btn-purp:hover{
+    background-color: #7479B3;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 0px 10px inset #7479B3;
+}
+.btn-purp:active{
+    background-color: #595e9e;
+    border: none;
+    color: #fff;
+}
+
+.form-control:hover{
+    border-color: #CED4DA;
+    box-shadow: none;
+}
+.form-control:active{
+    color: #7479B3;
+    border-color: #CED4DA;
+    box-shadow: none;
+}
+.form-control:focus{
+    color: #7479B3;
+    border-color: #CED4DA;
+    box-shadow: none;
+}

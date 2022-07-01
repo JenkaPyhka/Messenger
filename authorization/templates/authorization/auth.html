@@ -1,0 +1,7 @@
+{% load static %}
+
+{% if request.user.is_authenticated == False %}
+    {% include 'authorization/reg.html' %}
+{% else %}
+    {% include 'authorization/log.html' %}
+{% endif %}
